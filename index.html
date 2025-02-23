@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/wedding-276/512/Food-1024.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">k
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><font class="hello">Restaurant Menu</font></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" data-filter="all">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-filter="starters">Starters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-filter="mains">Mains</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-filter="desserts">Desserts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-filter="beverages">Beverages</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" id="search-input" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <video style="width: 100%; height: 400px;" src="https://files.codingninjas.in/restaurant-1706081051.mp4" autoplay loop></video>
+
+    <div class="container">
+        <div class="row">
+            <!-- Starter 1 -->
+            <div class="menu-item col-md-4" data-category="starters">
+                <div class="card">
+                    <img height="400px" src="https://bing.com/th?id=OSK.ab68d3d4fb29849ae37cb499e10f30ff" class="card-img-top" alt="Garlic Bread">
+                    <div class="card-body">
+                        <h5 class="card-title">Garlic Bread</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$4.99</h6>
+                        <p class="card-text">Crispy and buttery garlic bread topped with herbs. Enjoy it.</p>
+                        <p class="card-text"><small class="text-muted">Category: Starter</small></p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Starter 2 -->
+            <div class="menu-item col-md-4" data-category="starters">
+                <div class="card">
+                    <img height="400px" src="https://bing.com/th?id=OSK.c0f617c50a247cc5868a864697b6298e" class="card-img-top" alt="Bruschetta">
+                    <div class="card-body">
+                        <h5 class="card-title">Bruschetta</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$5.99</h6>
+                        <p class="card-text">Toasted bread topped with fresh tomatoes, basil, and olive oil.</p>
+                        <p class="card-text"><small class="text-muted">Category: Starter</small></p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Starter 3 -->
+            <div class="menu-item col-md-4" data-category="starters">
+                <div class="card">
+                    <img height="400px" src="https://bing.com/th?id=OSK.c0f617c50a247cc5868a864697b6298e" class="card-img-top" alt="Spring Rolls">
+                    <div class="card-body">
+                        <h5 class="card-title">Spring Rolls</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$6.99</h6>
+                        <p class="card-text">Crispy rolls filled with fresh vegetables and served with dipping sauce.</p>
+                        <p class="card-text"><small class="text-muted">Category: Starter</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row mt-4">
+            <!-- Main 1 -->
+            <div class="menu-item col-md-4" data-category="mains">
+                <div class="card">
+                    <img height="400px" src="https://bing.com/th?id=OSK.7b9a4974e12b2a57ca7523dd04a409d6" class="card-img-top" alt="Grilled Salmon">
+                    <div class="card-body">
+                        <h5 class="card-title">Grilled Salmon</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$14.99</h6>
+                        <p class="card-text">Salmon fillet grilled to perfection, served with lemon and herbs.</p>
+                        <p class="card-text"><small class="text-muted">Category: Main</small></p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Main 2 -->
+            <div class="menu-item col-md-4" data-category="mains">
+                <div class="card">
+                    <img height="400px" src="https://th.bing.com/th/id/OIP.4rtWNgC-MH6eSW9RKYhfkgHaF7?rs=1&pid=ImgDetMain" class="card-img-top" alt="Indian Thali">
+                    <div class="card-body">
+                        <h5 class="card-title">Indian thali</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$19.99</h6>
+                        <p class="card-text">Experience India's Culinary Symphony: Savor the Authentic Thali</p>
+                        <p class="card-text"><small class="text-muted">Category: Main</small></p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Main 3 -->
+            <div class="menu-item col-md-4" data-category="mains">
+                <div class="card">
+                    <img height="400px" src="https://bing.com/th?id=OSK.799aaf6c16ab98345d8e07f2c33c0276" class="card-img-top" alt="Pasta Carbonara">
+                    <div class="card-body">
+                        <h5 class="card-title">Pasta Carbonara</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$12.99</h6>
+                        <p class="card-text">Classic Italian pasta with creamy sauce and bacon. Enjoy it.</p>
+                        <p class="card-text"><small class="text-muted">Category: Main</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row mt-4">
+            <!-- Dessert 1 -->
+            <div class="menu-item col-md-4" data-category="desserts">
+                <div class="card">
+                    <img height="400px" src="https://bing.com/th?id=OSK.e099906dabf5cad7c427358b879e9c6a" class="card-img-top" alt="Cheesecake">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheesecake</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$6.99</h6>
+                        <p class="card-text">Rich and creamy cheesecake with a graham cracker crust.</p>
+                        <p class="card-text"><small class="text-muted">Category: Dessert</small></p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Dessert 2 -->
+            <div class="menu-item col-md-4" data-category="desserts">
+                <div class="card">
+                    <img height="400px" src="https://bing.com/th?id=OSK.670978e037e75ae3a9fbaf729bd8a997" class="card-img-top" alt="Chocolate Lava Cake">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Lava Cake</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$7.99</h6>
+                        <p class="card-text">Warm chocolate cake with a gooey molten center. Enjoy it.</p>
+                        <p class="card-text"><small class="text-muted">Category: Dessert</small></p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Dessert 3 -->
+            <div class="menu-item col-md-4" data-category="desserts">
+                <div class="card">
+                    <img height="400px" src="https://bing.com/th?id=OSK.6c7358df46d8d5ff0f6b3967701cacbe" class="card-img-top" alt="Tiramisu">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiramisu</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$8.99</h6>
+                        <p class="card-text">Classic Italian dessert with layers of coffee-soaked sponge cake and mascarpone cheese.</p>
+                        <p class="card-text"><small class="text-muted">Category: Dessert</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row mt-4">
+            <!-- Beverage 1 -->
+            <div class="menu-item col-md-4" data-category="beverages">
+                <div class="card">
+                    <img height="400px" src="https://th.bing.com/th/id/OIP.G7ikTRPG9W-v0SMwGDvzuwHaLG?rs=1&pid=ImgDetMain" class="card-img-top" alt="Lemonade">
+                    <div class="card-body">
+                        <h5 class="card-title">Lemonade</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$2.99</h6>
+                        <p class="card-text">Refreshing homemade lemonade.</p>
+                        <p class="card-text"><small class="text-muted">Category: Beverage</small></p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Beverage 2 -->
+            <div class="menu-item col-md-4" data-category="beverages">
+                <div class="card">
+                    <img height="400px" src="https://th.bing.com/th/id/R.61b997a8800b656fb3b5294b86892abf?rik=lFcewMziTt%2baEA&riu=http%3a%2f%2fwww.werecallingshenanigans.com%2fwp-content%2fuploads%2f2017%2f05%2ficed-coffee-with-kcup.jpg&ehk=MG%2bD%2fLLOMkldrqtDnvymBjVw9%2bEzuqjh3y9Qa9AnsJs%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Iced Coffee">
+                    <div class="card-body">
+                        <h5 class="card-title">Iced Coffee</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$3.99</h6>
+                        <p class="card-text">Cold brew coffee served over ice.</p>
+                        <p class="card-text"><small class="text-muted">Category: Beverage</small></p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Beverage 3 -->
+            <div class="menu-item col-md-4" data-category="beverages">
+                <div class="card">
+                    <img height="400px" src="https://thecinnamonjar.com/wp-content/uploads/2023/03/Biscoff-milkshake01790-3.jpg" class="card-img-top" alt="Milkshake">
+                    <div class="card-body">
+                        <h5 class="card-title">Milkshake</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$4.99</h6>
+                        <p class="card-text">Creamy milkshake available in various flavors.</p>
+                        <p class="card-text"><small class="text-muted">Category: Beverage</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div>
+            <h5 align="center">ABC Restaurant, India - Order food online </h5>
+            <br>
+            To ensure a smooth and enjoyable food ordering experience at our restaurant, greet customers warmly upon arrival and promptly seat them or guide them to the self-service area. Present the menu clearly, whether in print or digitally, and be available to answer any questions they may have. Take orders accurately, confirm special requests, and provide an estimated wait time. Always thank customers for their order and invite them to enjoy their meal, ensuring any further needs are promptly addressed.
+<br>
+            Once orders are taken, communicate clearly with the kitchen staff to ensure timely and accurate preparation of each dish. Regularly check on customers during their meal to ensure everything meets their expectations and to address any additional requests they may have. After the meal, present the bill promptly and handle payments efficiently. Lastly, thank customers for dining with us and invite them to return, ensuring they leave with a positive impression of our service and food.
+        </div>
+    </div>
+    <div class="footer_a">
+        <span class="qr">
+            <img width="180px" src="1000_F_468084889_jVY5deQe43L7JQRtsQb1UEFerg3OkQVx.jpg" alt="QR code">
+        </span>
+        <span class="bb">
+            <h5 style="color: red; text-decoration:solid;">DISCOVER WITH US</h5>
+            <h4 style="color: black;">Tell us About the experience. </h4>
+            <h4 style="color: black;">Scan this QR code to discover more with us. </h4>
+            <br>
+            <button class="down">
+                Click Here
+            </button>
+        </span>
+    </div>
+    <div class="footer_b">
+        <div>
+        <span>
+            <button class="btn" style="color: aliceblue; ">Privacy Policy</button>
+        </span>
+        <span>
+            <button class="btn" style="color: aliceblue; ">Terms & Conditions</button>
+        </span>
+        <span>
+            <button class="btn" style="color: aliceblue; ">Contact Us</button>
+        </span>
+        <span class="footer_icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+        </span>
+        <span>
+            <button class="btn" style="color: aliceblue; ">About Us</button>
+        </span>
+  
+    </div>
+    <br>
+    <div class="aaaa">
+        <h6>An Average active adult requires 2,000 Kcal energy per day, however, calorie needs may vary.</h6>
+        <h6>FSSAI Central License Number : 10014xxxxxxx</h6>
+        <h6 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: bolder;">Copyright  2024  H.R.P.L</h6>
+    </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-OQiLZ8D6CLAsBXgnJqxG1nYbyE31lSV6Lk62Kg7AE8JidXYEnfhOgx7q3Fzw8bif" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
